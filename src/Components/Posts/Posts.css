@@ -1,0 +1,13 @@
+.post{
+    height: 20em;
+
+}
+.card:hover{
+    transform: scale(1.05);
+    transition: 1s;
+}
+.card
+{
+    box-shadow: black;
+    background-blend-mode: darken;
+}

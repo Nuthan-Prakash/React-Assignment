@@ -1,0 +1,16 @@
+.image
+{
+    margin:3px;
+}
+@media screen and (max-width:576px){
+    .image
+    { 
+        width: 200px;
+        height: 50%;
+    }
+}
+.image:hover{
+    border: 2px solid black;
+    transform: scale(1.05);
+    transition: 2s;
+}
